@@ -19,3 +19,20 @@ Class {
 Counter >> count [ 
 	^ count
 ]
+
+{ #category : #accessing }
+Counter >> count: c [
+	count := c
+]
+
+{ #category : #accessing }
+Counter >> decrement [
+	count := count - 1
+
+]
+
+{ #category : #accessing }
+Counter >> increment [
+	count := count + 1
+
+]
